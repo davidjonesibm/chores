@@ -1,0 +1,19 @@
+{
+  "name": "chores",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "timecard": "npx playwright test --debug -g 'time card'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
