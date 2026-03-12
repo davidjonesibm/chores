@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "timecard": "npx playwright test --debug -g 'time card'"
+    "timecard": "npx playwright test --debug -g 'time card'",
+    "setup": "npm install -D @playwright/test@latest && npx playwright install --with-deps"
   },
   "keywords": [],
   "author": "",
